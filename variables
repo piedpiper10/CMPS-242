@@ -1,0 +1,17 @@
+3.00000003911 1.000002814       1.99973158189 0.180888232588  --> 100 Samples
+2.99999995866 0.999999913917 2.00026853027 0.201689556166  --> 1000 Samples
+3.00000008813 1.00001738085   1.99949400978 0.123495548517  --> 10000 Samples
+
+
+https://www.kaggle.com/jeppbautista/logistic-regression-from-scratch-python
+
+
+
+
+model.add(Conv2D(64, kernel_size=3, activation=’relu’, input_shape=(ncols,)))
+model.add(Conv2D(32, kernel_size=3, activation=’relu’))
+model.add(Flatten())
+model.add(Dense(10, activation=’softmax’))
+
+0.597474994758
+
